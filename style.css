@@ -1,0 +1,164 @@
+/*GENERAL WEBSITE STYLING*/
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f7fb;
+  color: #333;
+}
+
+/*WEBSITE HEADER*/
+
+header {
+  background-color: #102a43;
+  color: white;
+  text-align: center;
+  padding: 35px 20px;
+}
+
+header h1 {
+  font-size: 17px;
+}
+
+/*NAVIGATION BAR*/
+
+nav {
+   background color: #243b55;
+   text-align: center;
+   padding: 16px;
+}
+
+nav a {
+   color: white;
+   text-decoration: none;
+   padding: 12px 20px;
+   display: inline-blok;
+   font-weight: bold;
+}
+
+/*MAIN CONTENT*/
+
+main {
+   max-width: 1100px;
+   margin: 30px auto;
+   padding: 20px;
+}
+
+.welcome p {
+   font-size: 17px;
+   line-height: 1.8;
+}
+
+/*BUTTON*/
+
+.btn {
+   display: inline-block;
+   background-color: #007c91;
+   colr: white;
+   text-decoration: none;
+   padding: 12px 25px;
+   border-radius: 5px;
+   margin-top: 15px;
+}
+
+.btn:hover {
+   background-color: #005f73;
+
+
+/*FOOTER*/
+
+fooer {
+   background-color: #102a43;
+   color: white;
+   text-align: center;
+   padding: 20px;
+   margin-top: 40px;
+}
+
+/*MOBILE RESPONSIVENESS*/
+
+@media screen and (max-width: 600px) {
+   header h1 {
+     font-sie: 27px;
+  }
+
+nav a {
+   display: block;
+   padding: 10px;
+  }
+
+.welcome {
+   padding: 25px 15px;
+  }
+}
+   
+nav {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+nav a:hover {.
+  background-color: #007bff;
+}
+
+/*GALLERY PAGE*/
+
+.gallery {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 15px;
+   padding: 20px;
+   max-width: 650px;
+   margin: auto;
+}
+
+.gallery img {
+   width: 100%;
+   height: 130px;
+   object-fit: cover;
+   border-radius: 8px;
+}
+
+main {
+   padding: 25px;
+   text-align: center;
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    text-align: left;
+}
+article a {
+    color: #007c91;
+    text-decoration: underline;
+    font-weight: bold;
+}
+article a:hover {
+    color: #005f73;
+}
+
+article a {
+    color: #0000ff !important;
+    back-ground color: #ffff00 !important;
+    text-decoration: underline !important;
+    font-weight: bold !important;
+    display: inline-block;
+    padding: 5px;
+}
+   
